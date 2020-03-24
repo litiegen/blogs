@@ -1,0 +1,933 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>常见组件设计 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="前端面试复习.html" />
+    
+    
+    <link rel="prev" href="前端框架总结.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">js笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../js/js异步编程.html">
+            
+                <a href="../js/js异步编程.html">
+            
+                    
+                    js异步编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../js/nodejs笔记总结.html">
+            
+                <a href="../js/nodejs笔记总结.html">
+            
+                    
+                    nodejs笔记总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../js/node单线程问题.html">
+            
+                <a href="../js/node单线程问题.html">
+            
+                    
+                    node单线程问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../js/node的模块化实现.html">
+            
+                <a href="../js/node的模块化实现.html">
+            
+                    
+                    node的模块化实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../js/对于js事件的解析.html">
+            
+                <a href="../js/对于js事件的解析.html">
+            
+                    
+                    对于js事件的解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../js/js的深层理解.html">
+            
+                <a href="../js/js的深层理解.html">
+            
+                    
+                    js的深层理解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../js/ts笔记.html">
+            
+                <a href="../js/ts笔记.html">
+            
+                    
+                    ts笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../js/ES6.html">
+            
+                <a href="../js/ES6.html">
+            
+                    
+                    ES6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">css笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../css/css布局.html">
+            
+                <a href="../css/css布局.html">
+            
+                    
+                    css布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../css/sass介绍与使用方法.html">
+            
+                <a href="../css/sass介绍与使用方法.html">
+            
+                    
+                    sass介绍与使用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">html笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../HTML/使用canvas画多边形.html">
+            
+                <a href="../HTML/使用canvas画多边形.html">
+            
+                    
+                    使用canvas画多边形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">git笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../git/git版本回溯.html">
+            
+                <a href="../git/git版本回溯.html">
+            
+                    
+                    git版本回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../git/更改git账号时无法上传文件.html">
+            
+                <a href="../git/更改git账号时无法上传文件.html">
+            
+                    
+                    更改git账号时无法上传文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../git/如何使用git分支团队合作解决问题.html">
+            
+                <a href="../git/如何使用git分支团队合作解决问题.html">
+            
+                    
+                    如何使用git分支团队合作解决问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../git/github仓库关联及常用命令.html">
+            
+                <a href="../git/github仓库关联及常用命令.html">
+            
+                    
+                    github仓库关联及常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">web前端笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="spa富应用开发.html">
+            
+                <a href="spa富应用开发.html">
+            
+                    
+                    spa富应用开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="内存控制.html">
+            
+                <a href="内存控制.html">
+            
+                    
+                    内存控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="web前端常见问题.html">
+            
+                <a href="web前端常见问题.html">
+            
+                    
+                    web前端常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="前端框架总结.html">
+            
+                <a href="前端框架总结.html">
+            
+                    
+                    前端框架总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.5" data-path="常见组件设计.html">
+            
+                <a href="常见组件设计.html">
+            
+                    
+                    常见组件设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="前端面试复习.html">
+            
+                <a href="前端面试复习.html">
+            
+                    
+                    前端面试复习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="开源项目流程.html">
+            
+                <a href="开源项目流程.html">
+            
+                    
+                    开源项目流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="redux.html">
+            
+                <a href="redux.html">
+            
+                    
+                    redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">服务端笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../服务端/windows如何安装mysql.html">
+            
+                <a href="../服务端/windows如何安装mysql.html">
+            
+                    
+                    windows如何安装mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">小程序笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../小程序/小程序开发如何使用colorUI框架.html">
+            
+                <a href="../小程序/小程序开发如何使用colorUI框架.html">
+            
+                    
+                    小程序开发如何使用colorUI框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">计算机基础</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../计算机基础/os.html">
+            
+                <a href="../计算机基础/os.html">
+            
+                    
+                    os
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >常见组件设计</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h4 id="&#x56FE;&#x6807;&#x9009;&#x62E9;&#x540E;&#x70B9;&#x4EAE;">&#x56FE;&#x6807;&#x9009;&#x62E9;&#x540E;&#x70B9;&#x4EAE;</h4>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!--angular&#x4EE3;&#x7801;--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> *<span class="hljs-attr">ngFor</span>=<span class="hljs-string">&quot;let item of itemList&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span>
+         [<span class="hljs-attr">src</span>]=<span class="hljs-string">&quot;idx===selectIndex ? iconSelect : icon&quot;</span>
+         (<span class="hljs-attr">click</span>)=<span class="hljs-string">&quot;()=&gt;{selectIndex=idx}&quot;</span>
+    /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+&#x5B9A;&#x4E49;&#x53D8;&#x91CF;selectIndex&#xFF0C;&#x5F53;&#x5176;&#x7B49;&#x4E8E;&#x539F;&#x5750;&#x6807;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F7F;&#x7528;&#x70B9;&#x51FB;&#x65F6;&#x7684;&#x56FE;&#x6807;
+</code></pre>
+<h4 id="tab&#x680F;&#x7F6E;&#x4E8E;&#x5E95;&#x90E8;">tab&#x680F;&#x7F6E;&#x4E8E;&#x5E95;&#x90E8;</h4>
+<pre><code class="lang-css"><span class="hljs-comment">/*&#x5BF9;&#x4E8E;&#x8DDF;&#x7EC4;&#x4EF6;*/</span>
+{
+    <span class="hljs-attribute">height</span>:<span class="hljs-number">100%</span>;
+}
+<span class="hljs-comment">/*&#x5BF9;&#x4E8E;&#x8DDF;&#x7EC4;&#x4EF6;&#x4E2D;&#xFF0C;&#x5E95;&#x90E8;tar&#x680F;&#x4E0A;&#x9762;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x901A;&#x5E38;&#x662F;&#x8DEF;&#x7531;*/</span>
+{
+    <span class="hljs-attribute">display</span>:flex;
+    <span class="hljs-attribute">flex-direction</span>:column;
+    <span class="hljs-attribute">align-items</span>:stretch;
+    <span class="hljs-attribute">flex</span>:<span class="hljs-number">1</span>;
+}
+<span class="hljs-comment">/*&#x5E03;&#x5C40;&#x7ED3;&#x675F;&#x540E;&#xFF0C;&#x5E95;&#x90E8;&#x680F;&#x4F1A;&#x88AB;&#x6491;&#x5230;&#x6700;&#x4E0B;&#x65B9;*/</span>
+</code></pre>
+<h4 id="&#x5782;&#x76F4;&#x7F51;&#x683C;&#x5E03;&#x5C40;">&#x5782;&#x76F4;&#x7F51;&#x683C;&#x5E03;&#x5C40;</h4>
+<pre><code class="lang-css">/*&#x5BB9;&#x5668;&#x6837;&#x5F0F;[&#x5BB9;&#x5668;&#x7EC4;&#x4EF6;]*/
+{
+  padding: 5px 0;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  display: grid;
+  grid-auto-flow: row;//&#x6EA2;&#x51FA;&#x65F6;&#x65B0;&#x589E;&#x4E00;&#x884C;
+  place-content: stretch;
+  place-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+</code></pre>
+<p>&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x8BBE;&#x7F6E;&#x53D8;&#x91CF;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!--angular&#x4EE3;&#x7801;--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span>
+  <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;grid-container&quot;</span>
+  [<span class="hljs-attr">ngStyle</span>]=<span class="hljs-string">&quot;{
+    &apos;grid-template-rows&apos;: templateRows,
+    &apos;grid-template-columns&apos;: templateColumns,
+    &apos;grid-gap&apos;: gridGap
+  }&quot;</span>
+&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ng-content</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ng-content</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x5728;&#x903B;&#x8F91;&#x4E2D;&#x8BBE;&#x7F6E;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">VerticalGridComponent</span> <span class="hljs-title">implements</span> <span class="hljs-title">OnInit</span> </span>{
+  @Input() itemWidth = <span class="hljs-string">&apos;4rem&apos;</span>;
+  @Input() itemHeight = <span class="hljs-string">&apos;4rem&apos;</span>;
+  @Input() gridGap = <span class="hljs-string">&apos;5px&apos;</span>;
+  <span class="hljs-keyword">constructor</span>() {}
+
+  ngOnInit() {}
+  <span class="hljs-comment">/* &#x54CD;&#x5E94;&#x5F0F;&#x5E03;&#x5C40;&#x7F51;&#x683C;&#xFF0C;auto-fill &#x7528;&#x6765;&#x5728;&#x7A7A;&#x95F4;&#x8DB3;&#x591F;&#x65F6;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x586B;&#x5145;&#x8BE5;&#x4F4D;&#x7F6E;&#xFF0C;minmax &#x662F;&#x6700;&#x5C0F;&#x548C;&#x6700;&#x5927;&#x7684;&#x5BBD;&#x5EA6; */</span>
+  get templateRows() {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`minmax(auto-fill, <span class="hljs-subst">${this.itemHeight}</span>)`</span>;
+  }
+  <span class="hljs-comment">/**
+   * CSS Grid Layout &#x7684;&#x6A21;&#x7248;&#x5217;&#x8868;&#x8FBE;&#x5F0F;
+   */</span>
+  get templateColumns() {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`repeat(auto-fill, minmax(<span class="hljs-subst">${this.itemWidth}</span>, 1fr))`</span>;
+  }
+}
+</code></pre>
+<p>&#x8C03;&#x7528;&#x65F6;,&#x901A;&#x8FC7;&#x8BE5;&#x767E;&#x5E74;<code>itemWidth</code>&#x7684;&#x503C;&#x6765;&#x51B3;&#x5B9A;&#x6BCF;&#x884C;&#x663E;&#x793A;&#x51E0;&#x5217;&#x3002;&#x4F8B;&#x5982;&#x672C;&#x4F8B;&#x4E2D;<code>itemWidth</code>&#x4E3A;<code>10rem</code>&#x5C31;&#x662F;&#x4E24;&#x5217;<code>20rem</code>&#x5C31;&#x662F;&#x4E00;&#x5217;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">app-vertical-grid</span> [<span class="hljs-attr">itemWidth</span>]=<span class="hljs-string">&quot;&apos;20rem&apos;&quot;</span> [<span class="hljs-attr">itemHeight</span>]=<span class="hljs-string">&quot;&apos;2rem&apos;&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">app-vertical-grid</span>&gt;</span>
+</code></pre>
+<h4 id="&#x8BBE;&#x7F6E;&#x5728;&#x4E00;&#x4E2A;&#x76D2;&#x5B50;&#x5185;&#x7684;&#x4E0A;&#x4E0B;&#x6EDA;&#x52A8;">&#x8BBE;&#x7F6E;&#x5728;&#x4E00;&#x4E2A;&#x76D2;&#x5B50;&#x5185;&#x7684;&#x4E0A;&#x4E0B;&#x6EDA;&#x52A8;</h4>
+<p>&#x901A;&#x5E38;&#x5728;&#x4E00;&#x4E2A;app&#x4E2D;&#xFF0C;&#x5E95;&#x90E8;&#x7684;&#x680F;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x4E0A;&#x9762;&#x662F;&#x53EF;&#x6EDA;&#x52A8;&#x7684;&#x957F;&#x9875;&#x9762;</p>
+<pre><code class="lang-css"><span class="hljs-comment">/*host&#x4E3A;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x6837;&#x5F0F;*/</span>
+<span class="hljs-selector-pseudo">:host</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">align-items</span>: stretch;
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">overflow-y</span>: hidden;
+}
+<span class="hljs-comment">/* &#x8BA9;&#x4E2D;&#x95F4;&#x90E8;&#x5206;&#x53EF;&#x6EDA;&#x52A8;&#xFF0C;&#x9700;&#x8981;&#x8BA1;&#x7B97;&#x9AD8;&#x5EA6;&#xFF0C;&#x9875;&#x9762;&#x9AD8;&#x5EA6;&#x51CF;&#x53BB;&#x5934;&#x90E8;&#x548C;&#x5C3E;&#x90E8; */</span>
+<span class="hljs-comment">/*main&#x4E3A;&#x4E2D;&#x95F4;&#x5185;&#x5BB9;*/</span>
+<span class="hljs-selector-class">.main</span> {
+  <span class="hljs-attribute">flex-grow</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">overflow-y</span>: auto;
+  <span class="hljs-attribute">overflow-x</span>: hidden;
+  <span class="hljs-attribute">scroll-behavior</span>: smooth;
+  <span class="hljs-attribute">-webkit-overflow-scrolling</span>: touch;
+  <span class="hljs-attribute">overscroll-behavior-y</span>: contain;
+  <span class="hljs-attribute">height</span>: <span class="hljs-built_in">calc</span>(100% - 3rem);
+}
+</code></pre>
+<h4 id="&#x5361;&#x7247;">&#x5361;&#x7247;</h4>
+<p>&#x7F51;&#x683C;&#x5E03;&#x5C40;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x53EA;&#x80FD;&#x5360;&#x4E00;&#x4E2A;&#x683C;&#x5B50;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#x6211;&#x4EEC;&#x5C06;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5DE6;&#x9762;&#x4E3A;&#x56FE;&#x7247;&#xFF0C;&#x53F3;&#x9762;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x5206;&#x522B;&#x662F;&#x7B80;&#x4ECB;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x4EF7;&#x683C;&#x7684;&#x5361;&#x7247;&#x3002;</p>
+<pre><code class="lang-css">.container {
+  /*&#x5361;&#x7247;&#x7684;&#x5BB9;&#x5668;*/
+  display: grid;
+  grid-template-columns: 10rem 1fr;//&#x6BCF;&#x4E00;&#x5217;&#x7684;&#x5C3A;&#x5BF8;
+  grid-template-rows: 3rem 1fr 1rem 2rem;//&#x6BCF;&#x4E00;&#x6392;&#x7684;&#x5C3A;&#x5BF8;
+  grid-gap: 5px; //&#x683C;&#x5B50;&#x4E4B;&#x95F4;&#x95F4;&#x9694;
+  grid-template-areas://&#x533A;&#x57DF;&#x5212;&#x5206;&#xFF0C;&#x2018;.&#x2019;&#x4EE3;&#x8868;&#x65E0;&#x5185;&#x5BB9;
+    &apos;image title&apos;
+    &apos;image .&apos;
+    &apos;image tags&apos;
+    &apos;image price&apos;;
+  place-content: stretch;//&#x662F;align-content(&#x5782;&#x76F4;&#x683C;&#x5B50;&#x548C;&#x95F4;&#x9694;&#x5982;&#x4F55;&#x5206;&#x5E03;)&#x548C;justify-content(&#x6C34;&#x5E73;&#x683C;&#x5B50;&#x548C;&#x95F4;&#x9694;&#x5982;&#x4F55;&#x5206;&#x5E03;)&#x7684;&#x7B80;&#x5199;
+  place-items: stretch;//&#x662F;align-items(&#x5185;&#x5BB9;&#x5728;&#x683C;&#x5B50;&#x91CC;&#x5782;&#x76F4;&#x5982;&#x4F55;&#x5206;&#x5E03;&#xFF0C;stretch&#x4E3A;&#x5185;&#x5BB9;&#x5360;&#x6EE1;&#x683C;&#x5B50;)&#x548C;justify-items(&#x5185;&#x5BB9;&#x5728;&#x683C;&#x5B50;&#x91CC;&#x6C34;&#x5E73;&#x5982;&#x4F55;&#x5206;&#x5E03;)&#x7684;&#x7B80;&#x5199;
+}
+.product-image {
+  grid-area: image;
+  object-fit: contain;
+  width: 9rem;
+  height: 9rem;
+}
+.product-title {
+  grid-area: title;
+}
+.product-tags {
+  grid-area: tags;
+}
+.product-price {
+  grid-area: price;
+}
+</code></pre>
+<h4 id="&#x8F6E;&#x64AD;&#x56FE;">&#x8F6E;&#x64AD;&#x56FE;</h4>
+<p>&#x6A21;&#x677F;&#x4E3A;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!--angular&#x8BED;&#x6CD5;--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;container&quot;</span> [<span class="hljs-attr">ngStyle</span>]=<span class="hljs-string">&quot;{ height: sliderHeight }&quot;</span>&gt;</span>##&#x63A7;&#x5236;&#x8F6E;&#x64AD;&#x56FE;&#x7247;&#x7684;&#x9AD8;&#x5EA6;
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;image-slider&quot;</span> (<span class="hljs-attr">scroll</span>)=<span class="hljs-string">&quot;handleScroll($event)&quot;</span> #<span class="hljs-attr">imageSlider</span>&gt;</span>##&#x6ED1;&#x52A8;&#x65F6;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span>
+      *<span class="hljs-attr">ngFor</span>=<span class="hljs-string">&quot;let slider of sliders&quot;</span>
+      [<span class="hljs-attr">src</span>]=<span class="hljs-string">&quot;slider.imgUrl&quot;</span>
+      [<span class="hljs-attr">alt</span>]=<span class="hljs-string">&quot;slider.caption&quot;</span>
+    /&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-section&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span>
+      *<span class="hljs-attr">ngFor</span>=<span class="hljs-string">&quot;let _ of sliders; let idx = index&quot;</span>
+      <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;slide-button&quot;</span>
+      [<span class="hljs-attr">ngClass</span>]=<span class="hljs-string">&quot;{ &apos;slide-button-select&apos;: idx === selectedIndex }&quot;</span>
+    &gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x6837;&#x5F0F;&#x4E3A;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">overflow</span>: hidden;
+}
+
+<span class="hljs-selector-class">.container</span> <span class="hljs-selector-class">.image-slider</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">overflow-x</span>: scroll;
+  <span class="hljs-attribute">scroll-snap-type</span>: x mandatory;<span class="hljs-comment">/*&#x5728;x&#x8F74;&#x6DFB;&#x52A0;&#x5438;&#x9644;&#x6548;&#x679C;*/</span>
+  <span class="hljs-attribute">scroll-behavior</span>: smooth;<span class="hljs-comment">/*&#x4F7F;&#x5F97;&#x5143;&#x7D20;&#x7684;&#x79FB;&#x52A8;&#x4EA7;&#x751F;&#x79FB;&#x52A8;&#x6548;&#x679C;*/</span>
+  <span class="hljs-attribute">-webkit-overflow-scrolling</span>: touch;<span class="hljs-comment">/*&#x5728;&#x624B;&#x673A;&#x4E0A;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x89E6;&#x6478;&#x6EDA;&#x52A8;*/</span>
+}
+
+<span class="hljs-selector-class">.container</span> <span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">object-fit</span>: cover;
+  <span class="hljs-attribute">scroll-snap-align</span>: start;<span class="hljs-comment">/*&#x5438;&#x9644;&#x53C2;&#x8003;&#x6807;&#x51C6;*/</span>
+}
+
+<span class="hljs-selector-class">.nav-section</span> {
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">bottom</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.5</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">justify-content</span>: flex-end;
+  <span class="hljs-attribute">align-items</span>: stretch;
+}
+
+<span class="hljs-selector-class">.nav-section</span> <span class="hljs-selector-class">.slide-button</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fff</span>;
+  <span class="hljs-attribute">text-decoration</span>: none;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span>;
+}
+<span class="hljs-selector-class">.container</span> <span class="hljs-selector-class">.image-slider</span><span class="hljs-selector-pseudo">::-webkit-scrollbar</span> {
+  <span class="hljs-attribute">display</span>: none;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">0</span> <span class="hljs-meta">!important</span>;
+}
+
+<span class="hljs-selector-class">.nav-section</span> <span class="hljs-selector-class">.slide-button-select</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e02f29</span>;
+}
+</code></pre>
+<p>&#x903B;&#x8F91;&#x4E3A;</p>
+<pre><code class="lang-typescript"><span class="hljs-keyword">import</span> {
+  Component,
+  OnInit,
+  Input,
+  ViewChild,
+  ElementRef,
+  Renderer2,
+  AfterViewInit,
+  OnDestroy,
+  ChangeDetectionStrategy
+} from <span class="hljs-string">&apos;@angular/core&apos;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">interface</span> ImageSlider {
+  id: <span class="hljs-built_in">number</span>;
+  imgUrl: <span class="hljs-built_in">string</span>;
+  link: <span class="hljs-built_in">string</span>;
+  caption: <span class="hljs-built_in">string</span>;
+}
+
+@Component({
+  selector: <span class="hljs-string">&apos;app-image-slider&apos;</span>,
+  templateUrl: <span class="hljs-string">&apos;./image-slider.component.html&apos;</span>,
+  styleUrls: [<span class="hljs-string">&apos;./image-slider.component.css&apos;</span>],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> ImageSliderComponent <span class="hljs-keyword">implements</span> OnInit, AfterViewInit, OnDestroy {
+  @Input() sliders: ImageSlider[] = [];<span class="hljs-comment">/*&#x5916;&#x90E8;&#x4F20;&#x5165;&#x7684;&#x56FE;&#x7247;&#x7684;&#x76F8;&#x5173;&#x6570;&#x636E;*/</span>
+  @Input() sliderHeight = <span class="hljs-string">&apos;160px&apos;</span>;
+  @Input() intervalBySeconds = <span class="hljs-number">2</span>;
+  @ViewChild(<span class="hljs-string">&apos;imageSlider&apos;</span>, { <span class="hljs-keyword">static</span>: <span class="hljs-literal">true</span> })
+  imgSlider: ElementRef;<span class="hljs-comment">/*&#x53D6;&#x5230;&#x540D;&#x4E3A;imgSlider&#x7684;&#x5143;&#x7D20;&#x6570;*/</span>
+  selectedIndex = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">constructor</span>(private rd2: Renderer2) {}
+  intervalId;
+  ngOnInit() {}
+
+  ngAfterViewInit(): <span class="hljs-built_in">void</span> {
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.intervalBySeconds &lt;= <span class="hljs-number">0</span>) {
+      <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-keyword">this</span>.intervalId = setInterval(() =&gt; {
+      <span class="hljs-keyword">this</span>.rd2.setProperty(<span class="hljs-comment">/*&#x6DFB;&#x52A0;&#x5C5E;&#x6027;*/</span>
+        <span class="hljs-keyword">this</span>.imgSlider.nativeElement,<span class="hljs-comment">/*&#x5BF9;&#x5E94;&#x7684;&#x56FE;&#x7247;&#x5BB9;&#x5668;&#x5143;&#x7D20;*/</span>
+        <span class="hljs-string">&apos;scrollLeft&apos;</span>,<span class="hljs-comment">/*&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#x7684;&#x8DDD;&#x79BB;*/</span>
+        (<span class="hljs-keyword">this</span>.getIndex(++<span class="hljs-keyword">this</span>.selectedIndex) *
+          <span class="hljs-keyword">this</span>.imgSlider.nativeElement.scrollWidth) /
+          <span class="hljs-keyword">this</span>.sliders.length<span class="hljs-comment">/*&#x8BA1;&#x7B97;&#x5F97;&#x5230;&#x73B0;&#x5728;&#x5E94;&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#x7684;&#x8DDD;&#x79BB;*/</span>
+      );
+    }, <span class="hljs-keyword">this</span>.intervalBySeconds * <span class="hljs-number">1000</span>);
+  }
+
+  ngOnDestroy(): <span class="hljs-built_in">void</span> {
+    clearInterval(<span class="hljs-keyword">this</span>.intervalId);<span class="hljs-comment">/*&#x89E3;&#x51B3;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;*/</span>
+  }
+
+  getIndex(idx: <span class="hljs-built_in">number</span>): <span class="hljs-built_in">number</span> {
+    <span class="hljs-comment">/*&#x83B7;&#x53D6;&#x73B0;&#x5728;&#x5E94;&#x8BE5;&#x662F;&#x7B2C;&#x51E0;&#x5F20;&#x56FE;*/</span>
+    <span class="hljs-keyword">return</span> idx &gt;= <span class="hljs-number">0</span>
+      ? idx % <span class="hljs-keyword">this</span>.sliders.length
+      : <span class="hljs-keyword">this</span>.sliders.length - (<span class="hljs-built_in">Math</span>.abs(idx) % <span class="hljs-keyword">this</span>.sliders.length);
+  }
+
+  handleScroll(ev) {
+    <span class="hljs-comment">/*&#x5728;&#x624B;&#x52A8;&#x6ED1;&#x52A8;&#x8F6E;&#x64AD;&#x56FE;&#x540E;&#xFF0C;&#x66F4;&#x6539;this.selectedIndex&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6B64;&#x51FD;&#x6570;&#xFF0C;&#x4F8B;&#x5982;&#x56FE;&#x7247;&#x5728;2&#xFF0C;&#x624B;&#x52A8;&#x5212;&#x5230;&#x4E86;1&#xFF0C;&#x4E0B;&#x4E00;&#x6B21;&#xFF0C;&#x56FE;&#x7247;&#x4ECD;&#x7136;&#x81EA;&#x52A8;&#x5212;&#x5230;3*/</span>
+    <span class="hljs-keyword">const</span> ratio =
+      ev.target.scrollLeft / (ev.target.scrollWidth / <span class="hljs-keyword">this</span>.sliders.length);
+    <span class="hljs-keyword">this</span>.selectedIndex = <span class="hljs-built_in">Math</span>.round(ratio);
+  }
+}
+</code></pre>
+<h4 id="&#x4E24;&#x680F;&#x5E03;&#x5C40;&#xFF0C;&#x5DE6;&#x680F;&#x56FA;&#x5B9A;&#xFF0C;&#x53F3;&#x680F;&#x6EDA;&#x52A8;&#xFF08;&#x5E38;&#x89C1;&#x5F00;&#x653E;&#x6587;&#x6863;&#x9875;&#x9762;&#xFF09;">&#x4E24;&#x680F;&#x5E03;&#x5C40;&#xFF0C;&#x5DE6;&#x680F;&#x56FA;&#x5B9A;&#xFF0C;&#x53F3;&#x680F;&#x6EDA;&#x52A8;&#xFF08;&#x5E38;&#x89C1;&#x5F00;&#x653E;&#x6587;&#x6863;&#x9875;&#x9762;&#xFF09;</h4>
+<p>&#x4F7F;&#x7528;fixed&#x5E03;&#x5C40;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.left</span>{
+    <span class="hljs-attribute">position</span>:fixed;
+    <span class="hljs-attribute">width</span>:<span class="hljs-number">200px</span>;
+    <span class="hljs-attribute">left</span>:<span class="hljs-number">0</span>;
+    <span class="hljs-attribute">top</span>:<span class="hljs-number">0</span>;
+}
+<span class="hljs-selector-class">.right</span>{
+    <span class="hljs-attribute">position</span>: relative;
+    <span class="hljs-attribute">marginLift</span>:<span class="hljs-number">200px</span>;
+}
+</code></pre>
+<p>&#x5C06;&#x5DE6;&#x680F;&#x9ECF;&#x8D34;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.left</span>{
+    <span class="hljs-comment">/*height: calc(100vh - 90px);//&#x5E38;&#x7528;&#x6765;&#x8BBE;&#x7F6E;&#x9AD8;&#x5EA6;*/</span>
+    <span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">float</span>:left;
+    <span class="hljs-attribute">position</span>: sticky;<span class="hljs-comment">/*&#x5C06;&#x5176;&#x7C98;&#x5E16;&#x5728;&#x67D0;&#x4E2A;&#x5730;&#x65B9;&#x4E0D;&#x52A8;*/</span>
+    <span class="hljs-attribute">position</span>: -webkit-sticky;
+}
+<span class="hljs-selector-class">.right</span>{
+    <span class="hljs-attribute">float</span>:left;
+}
+</code></pre>
+<blockquote>
+<p>sticky&#xFF1A;</p>
+<p>&#x5143;&#x7D20;&#x6839;&#x636E;&#x6B63;&#x5E38;&#x6587;&#x6863;&#x6D41;&#x8FDB;&#x884C;&#x5B9A;&#x4F4D;&#xFF0C;&#x7136;&#x540E;&#x76F8;&#x5BF9;&#x5B83;&#x7684;<em>&#x6700;&#x8FD1;&#x6EDA;&#x52A8;&#x7956;&#x5148;&#xFF08;nearest scrolling ancestor&#xFF09;</em>&#x548C; <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_Block" target="_blank">containing block</a> (&#x6700;&#x8FD1;&#x5757;&#x7EA7;&#x7956;&#x5148; nearest block-level ancestor)&#xFF0C;&#x5305;&#x62EC;table-related&#x5143;&#x7D20;&#xFF0C;&#x57FA;&#x4E8E;<code>top</code>, <code>right</code>, <code>bottom</code>, &#x548C; <code>left</code>&#x7684;&#x503C;&#x8FDB;&#x884C;&#x504F;&#x79FB;&#x3002;&#x504F;&#x79FB;&#x503C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x5143;&#x7D20;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</p>
+<p>&#x8BE5;&#x503C;&#x603B;&#x662F;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5C42;&#x53E0;&#x4E0A;&#x4E0B;&#x6587;&#xFF08;stacking context&#xFF09;&#x3002;&#x6CE8;&#x610F;&#xFF0C;&#x4E00;&#x4E2A;sticky&#x5143;&#x7D20;&#x4F1A;&#x201C;&#x56FA;&#x5B9A;&#x201D;&#x5728;&#x79BB;&#x5B83;&#x6700;&#x8FD1;&#x7684;&#x4E00;&#x4E2A;&#x62E5;&#x6709;&#x201C;&#x6EDA;&#x52A8;&#x673A;&#x5236;&#x201D;&#x7684;&#x7956;&#x5148;&#x4E0A;&#xFF08;&#x5F53;&#x8BE5;&#x7956;&#x5148;&#x7684;<code>overflow</code> &#x662F; <code>hidden</code>, <code>scroll</code>, <code>auto</code>, &#x6216; <code>overlay</code>&#x65F6;&#xFF09;&#xFF0C;&#x5373;&#x4FBF;&#x8FD9;&#x4E2A;&#x7956;&#x5148;&#x4E0D;&#x662F;&#x771F;&#x7684;&#x6EDA;&#x52A8;&#x7956;&#x5148;&#x3002;&#x8FD9;&#x4E2A;&#x963B;&#x6B62;&#x4E86;&#x6240;&#x6709;&#x201C;sticky&#x201D;&#x884C;&#x4E3A;</p>
+<p>sticky&#x751F;&#x6548;&#x6761;&#x4EF6;&#xFF1A;</p>
+<p>1&#x3001;&#x5FC5;&#x987B;&#x6307;&#x5B9A;top&#x3001;bottom&#x3001;left&#x3001;right&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;</p>
+<p>2&#x3001;&#x8FBE;&#x5230;&#x8BBE;&#x5B9A;&#x9614;&#x503C;&#xFF0C;top&#x4E3A;0&#x65F6;&#x4E0E;fixed&#x76F8;&#x540C;&#xFF0C;top&#x5927;&#x4E8E;0&#x65F6;&#xFF0C;&#x52A0;&#x6210;relative&#x5C5E;&#x6027;</p>
+<p>fixed&#x4E0E;sticky&#x7684;&#x533A;&#x522B;&#xFF1A;</p>
+<p>sticky&#x5B9A;&#x4F4D;&#x53EF;&#x4EE5;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;relative&#x548C;fixed&#x7684;&#x6DF7;&#x5408;&#x3002;&#x7C98;&#x6027;&#x5B9A;&#x4F4D;&#x7684;&#x5143;&#x7D20;&#x88AB;&#x89C6;&#x4E3A;&#x76F8;&#x5BF9;&#x5B9A;&#x4F4D;&#xFF0C;&#x76F4;&#x5230;&#x5B83;&#x8D85;&#x8FC7;&#x6307;&#x5B9A;&#x7684;&#x9608;&#x503C;&#xFF0C;&#x6B64;&#x65F6;&#x5B83;&#x88AB;&#x89C6;&#x4E3A;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x76F4;&#x5230;&#x5B83;&#x5230;&#x8FBE;&#x5176;&#x7236;&#x6BCD;&#x7684;&#x8FB9;&#x754C;&#x3002;</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="前端框架总结.html" class="navigation navigation-prev " aria-label="Previous page: 前端框架总结">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="前端面试复习.html" class="navigation navigation-next " aria-label="Next page: 前端面试复习">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"常见组件设计","level":"6.5","depth":1,"next":{"title":"前端面试复习","level":"6.6","depth":1,"path":"web前端/前端面试复习.md","ref":"web前端/前端面试复习.md","articles":[]},"previous":{"title":"前端框架总结","level":"6.4","depth":1,"path":"web前端/前端框架总结.md","ref":"web前端/前端框架总结.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"web前端/常见组件设计.md","mtime":"2020-03-24T05:56:54.265Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-24T05:57:39.193Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,880 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>js异步编程 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="nodejs笔记总结.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">js笔记</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="js异步编程.html">
+            
+                <a href="js异步编程.html">
+            
+                    
+                    js异步编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="nodejs笔记总结.html">
+            
+                <a href="nodejs笔记总结.html">
+            
+                    
+                    nodejs笔记总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="node单线程问题.html">
+            
+                <a href="node单线程问题.html">
+            
+                    
+                    node单线程问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="node的模块化实现.html">
+            
+                <a href="node的模块化实现.html">
+            
+                    
+                    node的模块化实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="对于js事件的解析.html">
+            
+                <a href="对于js事件的解析.html">
+            
+                    
+                    对于js事件的解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="js的深层理解.html">
+            
+                <a href="js的深层理解.html">
+            
+                    
+                    js的深层理解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="ts笔记.html">
+            
+                <a href="ts笔记.html">
+            
+                    
+                    ts笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="ES6.html">
+            
+                <a href="ES6.html">
+            
+                    
+                    ES6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">css笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../css/css布局.html">
+            
+                <a href="../css/css布局.html">
+            
+                    
+                    css布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../css/sass介绍与使用方法.html">
+            
+                <a href="../css/sass介绍与使用方法.html">
+            
+                    
+                    sass介绍与使用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">html笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../HTML/使用canvas画多边形.html">
+            
+                <a href="../HTML/使用canvas画多边形.html">
+            
+                    
+                    使用canvas画多边形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">git笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../git/git版本回溯.html">
+            
+                <a href="../git/git版本回溯.html">
+            
+                    
+                    git版本回溯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../git/更改git账号时无法上传文件.html">
+            
+                <a href="../git/更改git账号时无法上传文件.html">
+            
+                    
+                    更改git账号时无法上传文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../git/如何使用git分支团队合作解决问题.html">
+            
+                <a href="../git/如何使用git分支团队合作解决问题.html">
+            
+                    
+                    如何使用git分支团队合作解决问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../git/github仓库关联及常用命令.html">
+            
+                <a href="../git/github仓库关联及常用命令.html">
+            
+                    
+                    github仓库关联及常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">web前端笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../web前端/spa富应用开发.html">
+            
+                <a href="../web前端/spa富应用开发.html">
+            
+                    
+                    spa富应用开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../web前端/内存控制.html">
+            
+                <a href="../web前端/内存控制.html">
+            
+                    
+                    内存控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../web前端/web前端常见问题.html">
+            
+                <a href="../web前端/web前端常见问题.html">
+            
+                    
+                    web前端常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../web前端/前端框架总结.html">
+            
+                <a href="../web前端/前端框架总结.html">
+            
+                    
+                    前端框架总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../web前端/常见组件设计.html">
+            
+                <a href="../web前端/常见组件设计.html">
+            
+                    
+                    常见组件设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../web前端/前端面试复习.html">
+            
+                <a href="../web前端/前端面试复习.html">
+            
+                    
+                    前端面试复习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../web前端/开源项目流程.html">
+            
+                <a href="../web前端/开源项目流程.html">
+            
+                    
+                    开源项目流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../web前端/redux.html">
+            
+                <a href="../web前端/redux.html">
+            
+                    
+                    redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">服务端笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../服务端/windows如何安装mysql.html">
+            
+                <a href="../服务端/windows如何安装mysql.html">
+            
+                    
+                    windows如何安装mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">小程序笔记</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../小程序/小程序开发如何使用colorUI框架.html">
+            
+                <a href="../小程序/小程序开发如何使用colorUI框架.html">
+            
+                    
+                    小程序开发如何使用colorUI框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">计算机基础</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../计算机基础/os.html">
+            
+                <a href="../计算机基础/os.html">
+            
+                    
+                    os
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >js异步编程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h6 id="js&#x5F02;&#x6B65;&#x7F16;&#x7A0B;">js&#x5F02;&#x6B65;&#x7F16;&#x7A0B;</h6>
+<p>==&#x9AD8;&#x9636;&#x51FD;&#x6570;==</p>
+<p>&#x5C06;&#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x6216;&#x8005;&#x5C06;&#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x8FD4;&#x56DE;&#x503C;&#x7684;&#x51FD;&#x6570;&#x3002;&#x9AD8;&#x9636;&#x51FD;&#x6570;&#x7684;&#x4F8B;&#x5B50;</p>
+<pre><code>emmitter.on(&apos;data&apos;,function(){})
+</code></pre><p>==&#x504F;&#x51FD;&#x6570;==</p>
+<p>&#x4E3A;&#x4E86;&#x8C03;&#x7528;&#x51FD;&#x6570;A&#xFF0C;&#x4F46;&#x4E3A;&#x4E86;&#x5E94;&#x5BF9;&#x4E0D;&#x540C;&#x60C5;&#x666F;&#xFF0C;&#x9700;&#x8981;&#x5BF9;&#x51FD;&#x6570;A&#x6839;&#x636E;&#x4E0D;&#x540C;&#x573A;&#x666F;&#x505A;&#x51FA;&#x7EC6;&#x5FAE;&#x6539;&#x53D8;&#xFF0C;&#x4E8E;&#x662F;&#x521B;&#x5EFA;&#x521B;&#x5EFA;&#x51FD;&#x6570;B&#x53BB;&#x8FD4;&#x56DE;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x573A;&#x666F;&#x66F4;&#x6539;&#x540E;&#x7684;&#x51FD;&#x6570;A&#xFF08;&#x51FD;&#x6570;A&#x7684;&#x53C2;&#x6570;&#x6216;&#x8005;&#x53D8;&#x91CF;&#x662F;&#x9884;&#x7F6E;&#x7684;&#xFF09;&#xFF0C;&#x51FD;&#x6570;B&#x5373;&#x4E3A;&#x504F;&#x51FD;&#x6570;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x4E00;&#x4E2A;&#x573A;&#x666F;</span>
+<span class="hljs-keyword">var</span> toString=<span class="hljs-built_in">Object</span>.prototype.toString;
+<span class="hljs-keyword">var</span> isString=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">obj</span>)</span>{
+    <span class="hljs-keyword">return</span> toString.call(obj)== <span class="hljs-string">&apos;[object String]&apos;</span>
+}
+<span class="hljs-keyword">var</span> isFunction=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">return</span> toString.call(obj)== <span class="hljs-string">&apos;[object Function]&apos;</span>
+}
+<span class="hljs-comment">//&#x5982;&#x679C;&#x6709;&#x5F88;&#x591A;&#x7C7B;&#x4F3C;&#x7684;isXX&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x4E00;&#x5199;&#x51FA;&#x6765;&#xFF0C;&#x4F1A;&#x51FA;&#x73B0;&#x66F4;&#x591A;&#x7684;&#x4EE3;&#x7801;&#x5197;&#x4F59;&#xFF0C;&#x6240;&#x4EE5;&#x4E3A;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x6784;&#x9020;&#x65B0;&#x51FD;&#x6570;</span>
+<span class="hljs-keyword">var</span> isType=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">type</span>)</span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">obj</span>)</span>{
+        <span class="hljs-keyword">return</span> toString.call(obj)== <span class="hljs-string">&apos;[object &apos;</span>+type+<span class="hljs-string">&apos;]&apos;</span>;
+    }
+}
+<span class="hljs-keyword">var</span> isString=isType(<span class="hljs-string">&apos;String&apos;</span>);
+<span class="hljs-keyword">var</span> isFunction=isType(<span class="hljs-string">&apos;Function&apos;</span>);
+
+<span class="hljs-comment">//&#x5E38;&#x89C1;&#x7684;&#x504F;&#x51FD;&#x6570;&#xFF0C;&#x4F8B;&#x5982;Underscore&#x63D0;&#x4F9B;&#x7684;after&#x65B9;&#x6CD5;&#x3002;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x8C03;&#x7528;&#x591A;&#x6B21;&#x624D;&#x771F;&#x6B63;&#x6267;&#x884C;&#x7684;&#x5B9E;&#x9645;&#x51FD;&#x6570;&#x3002;</span>
+_.after=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">timers,func</span>)</span>{
+    <span class="hljs-keyword">if</span>(timers&lt;=<span class="hljs-number">0</span>) <span class="hljs-keyword">return</span> func();
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">if</span>(--timers&lt;<span class="hljs-number">1</span>) {<span class="hljs-keyword">return</span> func.apply(<span class="hljs-keyword">this</span>,<span class="hljs-built_in">arguments</span>)}
+    }
+}
+</code></pre>
+<p> ==&#x5F02;&#x6B65;&#x7F16;&#x7A0B;==</p>
+<p>node&#x7684;&#x975E;&#x963B;&#x585E;I/O&#x53EF;&#x4EE5;&#x4F7F;&#x5F97;cpu&#x4E0E;I/O&#x4E0D;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7B49;&#x5F85;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;&#x8D44;&#x6E90;&#x5F97;&#x5230;&#x66F4;&#x597D;&#x7684;&#x7684;&#x5229;&#x7528;&#x3002;&#x4F46;&#x4E0E;&#x6B64;&#x540C;&#x65F6;&#xFF0C;&#x5F02;&#x6B65;&#x7F16;&#x7A0B;&#x53C8;&#x4F1A;&#x4EA7;&#x751F;&#x5F88;&#x591A;&#x9EBB;&#x70E6;&#xFF0C;&#x4F8B;&#x5982;&#x5F02;&#x5E38;&#x5904;&#x7406;&#x3001;&#x51FD;&#x6570;&#x5D4C;&#x5957;&#x8FC7;&#x6DF1;&#x3001;&#x963B;&#x585E;&#x4EE3;&#x7801;&#x3001;&#x591A;&#x7EBF;&#x7A0B;&#x7F16;&#x7A0B;&#x3001;&#x5F02;&#x6B65;&#x8F6C;&#x540C;&#x6B65;&#x7B49;&#x3002;&#x5BF9;&#x4E8E;&#x8FD9;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x5F02;&#x6B65;&#x7F16;&#x7A0B;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x6709;&#x4EE5;&#x4E0B;&#x4E09;&#x79CD;&#xFF1A;1&#x3001;&#x4E8B;&#x4EF6;&#x53D1;&#x5E03;/&#x8BA2;&#x9605;&#x8005;&#x6A21;&#x5F0F;&#x3002;2&#x3001;Promise/Deferred&#x6A21;&#x5F0F;&#x3002;3&#x3001;&#x6D41;&#x7A0B;&#x63A7;&#x5236;&#x5E93;&#x3002;</p>
+<p><em>&#x4E8B;&#x4EF6;&#x53D1;&#x5E03;/&#x8BA2;&#x9605;&#x8005;&#x6A21;&#x5F0F;</em></p>
+<p>node&#x4E2D;&#x7684;events&#x6A21;&#x5757;&#x5C31;&#x662F;&#x5BF9;&#x53D1;&#x5E03;&#x8BA2;&#x9605;&#x6A21;&#x5F0F;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x8BA2;&#x9605;</span>
+emmiter.on(<span class="hljs-string">&apos;e1&apos;</span>,(msg)=&gt;{<span class="hljs-built_in">console</span>.log(msg)})
+<span class="hljs-comment">//&#x53D1;&#x5E03;</span>
+emmiter.emit(<span class="hljs-string">&apos;e1&apos;</span>,<span class="hljs-string">&apos;hello&apos;</span>)
+</code></pre>
+<p>node&#x4E2D;&#x5F88;&#x591A;&#x6A21;&#x5757;&#x90FD;&#x7EE7;&#x627F;&#x4E86;events&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;http&#x6A21;&#x5757;&#xFF0C;&#x6211;&#x4EEC;&#x5E38;&#x7528;&#x7684;res.on(&apos;data&apos;,()=&gt;{})&#xFF0C;&#x8FD9;&#x8BA9;&#x6211;&#x4EEC;&#x5427;&#x6CE8;&#x610F;&#x529B;&#x653E;&#x5728;data&#x8FD9;&#x4E2A;&#x4E1A;&#x52A1;&#x4E8B;&#x4EF6;&#x70B9;&#x4E0A;&#x5373;&#x53EF;&#xFF0C;&#x65E0;&#x9700;&#x5173;&#x5FC3;&#x5185;&#x90E8;&#x6D41;&#x7A0B;&#x3002;</p>
+<p>&#x5982;&#x4E0B;&#x591A;&#x5C42;&#x5D4C;&#x5957;&#x95EE;&#x9898;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x95EE;&#x9898;&#x4EE3;&#x7801;&#xFF0C;&#x7531;&#x4E8E;&#x662F;&#x5F02;&#x6B65;&#xFF0C;&#x6240;&#x4EE5;&#x8981;&#x60F3;&#x8BA9;&#x4EE3;&#x7801;&#x5148;&#x540E;&#x6267;&#x884C;&#x9700;&#x8981;&#x5C06;&#x5176;&#x5D4C;&#x5957;&#x5165;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x6545;&#x9020;&#x5D4C;&#x5957;&#x8FC7;&#x6DF1;</span>
+fs.readdir(path.join(__dirname,<span class="hljs-string">&apos;..&apos;</span>),<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,files</span>)</span>{
+    files.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">filename,index</span>)</span>{
+        fs.readFile(filename,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,file</span>)</span>{})
+    })
+})
+<span class="hljs-comment">//&#x4EE5;&#x5F02;&#x6B65;&#x601D;&#x60F3;&#x7F16;&#x7A0B;&#xFF0C;&#x4EE5;&#x6E32;&#x67D3;&#x9875;&#x9762;&#x6240;&#x9700;&#x7684;&#x6A21;&#x677F;&#x8BFB;&#x53D6;&#x3001;&#x6570;&#x636E;&#x8BFB;&#x53D6;&#x548C;&#x672C;&#x5730;&#x5316;&#x4E3A;&#x4F8B;&#x4ECB;&#x7ECD;</span>
+<span class="hljs-keyword">var</span> count=<span class="hljs-number">0</span>;
+<span class="hljs-keyword">var</span> results={};
+<span class="hljs-keyword">var</span> done=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">key,value</span>)</span>{
+    results[key]=value;
+    count++;
+    <span class="hljs-keyword">if</span>(count===<span class="hljs-number">3</span>){
+        render(results);<span class="hljs-comment">//&#x7B49;&#x4E09;&#x4E2A;&#x65B9;&#x6CD5;&#x5168;&#x90E8;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x4EE5;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x7684;&#x6570;&#x636E;&#x51C6;&#x5907;&#x9F50;&#x5168;&#x4EE5;&#x540E;&#x518D;&#x6267;&#x884C;&#x6E32;&#x67D3;&#x529F;&#x80FD;</span>
+    }
+}
+fs.readFile(template_path,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,template</span>)</span>{
+    done(<span class="hljs-string">&apos;template&apos;</span>,template)
+})
+db.query(sql,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{
+    done(<span class="hljs-string">&apos;data&apos;</span>,data)
+})
+l10n.get(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,res</span>)</span>{
+    done(<span class="hljs-string">&apos;res&apos;</span>,res)
+})
+<span class="hljs-comment">//&#x7531;&#x4E8E;&#x591A;&#x4E2A;&#x573A;&#x666F;&#x4E2D;&#x5E76;&#x4E0D;&#x80FD;&#x786E;&#x4FDD;&#x54EA;&#x4E2A;&#x5F02;&#x6B65;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x5148;&#x6267;&#x884C;&#xFF0C;&#x6240;&#x4EE5;&#x9700;&#x8981;&#x501F;&#x52A9;&#x4E00;&#x4E2A;&#x7B2C;&#x4E09;&#x53D8;&#x91CF;&#xFF08;&#x7528;&#x4E8E;&#x68C0;&#x6D4B;&#x662F;&#x7B2C;&#x51E0;&#x6B21;&#x6267;&#x884C;&#xFF09;&#x548C;&#x7B2C;&#x4E09;&#x51FD;&#x6570;&#x6765;&#x5904;&#x7406;&#x5F02;&#x534F;&#x4F5C;&#x7684;&#x7ED3;&#x679C;&#x901A;&#x5E38;&#x628A;&#x5B83;&#x53EB;&#x505A;&#x54E8;&#x5175;&#x53D8;&#x91CF;&#x3002;&#x5229;&#x7528;&#x504F;&#x51FD;&#x6570;&#x5904;&#x7406;&#x54E8;&#x5175;&#x53D8;&#x91CF;&#x548C;&#x8FD9;&#x4E2A;&#x7B2C;&#x4E09;&#x51FD;&#x6570;&#x3002;</span>
+<span class="hljs-keyword">var</span> after=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">times,callback</span>)</span>{
+    <span class="hljs-keyword">var</span> count=<span class="hljs-number">0</span>,results={};
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">key,result</span>)</span>{
+        result[key]=value;
+        count++;
+        <span class="hljs-keyword">if</span>(count===times){
+           callback(results)
+        }
+    }
+}
+<span class="hljs-keyword">var</span> done=after(times,render);                                         
+<span class="hljs-keyword">var</span> emitter=<span class="hljs-keyword">new</span> events.Emmiter();
+
+<span class="hljs-keyword">var</span> times=<span class="hljs-number">3</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params"></span>)</span>{}
+
+emitter.on(<span class="hljs-string">&quot;done&quot;</span>,done);
+emitter.on(<span class="hljs-string">&quot;other&quot;</span>,other);<span class="hljs-comment">//&#x53EF;&#x4EE5;&#x62D3;&#x5C55;&#x5176;&#x4ED6;&#x529F;&#x80FD;</span>
+
+fs.readFile(template_path,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,template</span>)</span>{
+    emitter.emit(<span class="hljs-string">&quot;done&quot;</span>,<span class="hljs-string">&apos;template&apos;</span>,template)
+})
+db.query(sql,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{
+    emitter.emit(<span class="hljs-string">&quot;done&quot;</span>,<span class="hljs-string">&apos;data&apos;</span>,data)
+})
+l10n.get(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,res</span>)</span>{
+    emitter.emit(<span class="hljs-string">&quot;done&quot;</span>,<span class="hljs-string">&apos;res&apos;</span>,res)
+})
+</code></pre>
+<p><em>Promise/Deferred&#x6A21;&#x5F0F;</em></p>
+<p>commonjs&#x8349;&#x6848;&#x76EE;&#x524D;&#x5DF2;&#x7ECF;&#x62BD;&#x8C61;&#x9664;&#x4E86;promise/A&#x3001;promise/B&#x3001;promise/D&#x7B49;&#x7ECF;&#x5178;&#x6A21;&#x578B;&#x3002;&#x6211;&#x4EEC;&#x7740;&#x91CD;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;p romise/A&#x3002;</p>
+<p>Promise/A&#x5BF9;&#x5355;&#x4E2A;&#x5F02;&#x6B65;&#x64CD;&#x4F5C;&#x505A;&#x51FA;&#x4E86;&#x62BD;&#x8C61;&#x5B9A;&#x4E49;</p>
+<ul>
+<li>promise&#x53EA;&#x4F1A;&#x5904;&#x4E8E;&#x4E09;&#x79CD;&#x72B6;&#x6001;&#x4E2D;&#x7684;&#x4E00;&#x79CD;&#xFF1A;&#x672A;&#x5B8C;&#x6210;&#x3001;&#x5B8C;&#x6210;&#x3001;&#x5931;&#x8D25;</li>
+<li>promise&#x7684;&#x72B6;&#x6001;&#x53EA;&#x4F1A;&#x51FA;&#x73B0;&#x4ECE;&#x4E3A;&#x5B8C;&#x6210;&#x60F3;&#x5B8C;&#x6210;&#x6216;&#x8005;&#x5931;&#x8D25;&#x8F6C;&#x6362;&#xFF0C;&#x4E0D;&#x80FD;&#x9006;&#x8F6C;</li>
+<li>promise&#x7684;&#x72B6;&#x6001;&#x4E00;&#x65E6;&#x8F6C;&#x6362;&#xFF0C;&#x5C06;&#x4E0D;&#x80FD;&#x88AB;&#x66F4;&#x6539;</li>
+</ul>
+<p>&#x4E00;&#x4E2A;Promise&#x53EA;&#x8981;&#x5177;&#x5907;&#x4E00;&#x4E2A;then&#x65B9;&#x6CD5;&#x5373;&#x53EF;&#xFF0C;&#x4F46;&#x5BF9;then&#x65B9;&#x6CD5;&#x6709;&#x5982;&#x4E0B;&#x8981;&#x6C42;</p>
+<ul>
+<li>&#x63A5;&#x53D7;&#x5B8C;&#x6210;&#x72B6;&#x6001;&#x3001;&#x9519;&#x8BEF;&#x72B6;&#x6001;&#x7684;&#x56DE;&#x8C03;&#x65B9;&#x6CD5;</li>
+<li>&#x53EF;&#x9009;&#x7684;&#x652F;&#x6301;progress&#x4E8B;&#x4EF6;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E09;&#x4E2A;&#x65B9;&#x6CD5;</li>
+<li>then&#x65B9;&#x6CD5;&#x53EA;&#x63A5;&#x53D7;function&#x5BF9;&#x8C61;&#xFF0C;&#x5176;&#x4ED6;&#x5BF9;&#x8C61;&#x7686;&#x88AB;&#x5FFD;&#x7565;</li>
+<li>then&#x65B9;&#x6CD5;&#x7EE7;&#x7EED;&#x8FD4;&#x56DE;promise&#x5BF9;&#x8C61;&#x5B9E;&#x73B0;&#x94FE;&#x5F0F;&#x8C03;&#x7528;</li>
+</ul>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x5C01;&#x88C5;&#x4E00;&#x4E2A;Promise&#x5BF9;&#x8C61;&#x548C;Deferred&#x5BF9;&#x8C61;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> <span class="hljs-built_in">Promise</span>=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    EventEmitter.call(<span class="hljs-keyword">this</span>)
+}
+util.inherits(<span class="hljs-built_in">Promise</span>,EventEmitter)
+<span class="hljs-built_in">Promise</span>.prototype.then(fuc1,fuc2,fuc3){
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> fuc1===<span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">this</span>.once(<span class="hljs-string">&apos;success&apos;</span>,fuc1)
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> fuc2===<span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">this</span>.once(<span class="hljs-string">&apos;error&apos;</span>,func2)
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> fuc3===<span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">this</span>.once(<span class="hljs-string">&apos;progress&apos;</span>,fuc3)
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+}
+
+<span class="hljs-keyword">var</span> Deferred=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">this</span>.state=<span class="hljs-string">&apos;unfulfilled&apos;</span>;
+    <span class="hljs-keyword">this</span>.promise=<span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>;
+}
+Deferred.prototype.resolve=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">obj</span>)</span>{
+    <span class="hljs-keyword">this</span>.state=<span class="hljs-string">&apos;fulfilled&apos;</span>;
+    <span class="hljs-keyword">this</span>.promise.emit(<span class="hljs-string">&apos;success&apos;</span>,obj)
+}
+Deferred.prototype.reject=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+    <span class="hljs-keyword">this</span>.state=<span class="hljs-string">&apos;failed&apos;</span>;
+    <span class="hljs-keyword">this</span>.promise.emit(<span class="hljs-string">&apos;error&apos;</span>,err)
+}
+Deferred.prototype.resolve=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>)</span>{
+    <span class="hljs-keyword">this</span>.promise.emit(<span class="hljs-string">&apos;progress&apos;</span>,data)
+}
+</code></pre>
+<p>&#x5C01;&#x88C5;&#x5B8C;&#x6210;&#x4EE5;&#x540E;&#xFF0C;&#x6211;&#x7528;&#x4ED6;&#x6765;&#x5BF9;&#x4E00;&#x4E2A;&#x76F8;&#x5E94;&#x5BF9;&#x8C61;&#x8FDB;&#x884C;&#x5C01;&#x88C5;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x539F;&#x6765;&#x7684;&#x5F62;&#x5F0F;</span>
+res.on(<span class="hljs-string">&apos;data&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">chunk</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(chunk)
+})
+res.on(<span class="hljs-string">&apos;end&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-comment">//done</span>
+})
+res.on(<span class="hljs-string">&apos;error&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+    <span class="hljs-comment">//error</span>
+})
+<span class="hljs-comment">//&#x6211;&#x4EEC;&#x5C06;&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x8F6C;&#x5316;&#x4E3A;&#x4E00;&#x4E0B;&#x5F62;&#x5F0F;</span>
+res.then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-comment">//done</span>
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+    <span class="hljs-comment">//error</span>
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">chunk</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(chunk)
+})
+<span class="hljs-comment">//&#x4E3A;&#x4E86;&#x5B8C;&#x6210;&#x4EE5;&#x4E0A;&#x5F62;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x5229;&#x7528;promise&#x4E0E;deferred&#x6765;&#x5C06;res&#x7684;&#x64CD;&#x4F5C;&#x8FDB;&#x884C;&#x5C01;&#x88C5;&#x65B0;&#x7684;api</span>
+<span class="hljs-keyword">var</span> pro=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">res</span>)</span>{
+    <span class="hljs-keyword">var</span> deferred=<span class="hljs-keyword">new</span> Deferred();
+    <span class="hljs-keyword">var</span> result=<span class="hljs-string">&apos;&apos;</span>;
+    res.on(<span class="hljs-string">&apos;data&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">chunk</span>)</span>{
+        result+=chunk;
+        deferred.progress(chunk)
+    })
+    res.on(<span class="hljs-string">&apos;end&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        deferred.resolve()
+    })
+    res.on(<span class="hljs-string">&apos;error&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+        deferred.reject(err)
+    })
+    <span class="hljs-keyword">return</span> deferred.promise;
+}
+<span class="hljs-comment">//&#x56DE;&#x8C03;&#x793A;&#x4F8B;</span>
+pro(res).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-comment">//done</span>
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+    <span class="hljs-comment">//error</span>
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">chunk</span>)</span>{
+    <span class="hljs-built_in">console</span>.log(chunk)
+})
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x53EF;&#x4EE5;&#x770B;&#x51FA;promise&#x4E3B;&#x8981;&#x4F5C;&#x7528;&#x4E8E;&#x5916;&#x90E8;&#xFF0C;&#x901A;&#x8FC7;then&#x65B9;&#x6CD5;&#x66B4;&#x9732;&#x7ED9;&#x5916;&#x9762;&#x4EE5;&#x6DFB;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x903B;&#x8F91;&#x3002;deferred&#x4E3B;&#x8981;&#x662F;&#x7528;&#x4E8E;&#x5185;&#x90E8;&#x7EF4;&#x62A4;&#x5F02;&#x6B65;&#x6A21;&#x578B;&#x7684;&#x72B6;&#x6001;&#x3002;</p>
+<p>Q&#x6A21;&#x5757;&#x662F;Promise/A&#x89C4;&#x8303;&#x7684;&#x4E00;&#x4E2A;&#x5B9E;&#x73B0;&#xFF0C;&#x53EF;&#x4F7F;&#x7528;npm&#x8FDB;&#x884C;&#x4E0B;&#x8F7D;&#x3002;&#x4F7F;&#x7528;q&#x6A21;&#x5757;&#x5BF9;fs.readFile&#x8FDB;&#x884C;&#x5C01;&#x88C5;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> readFile=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">file,encoding</span>)</span>{
+    <span class="hljs-keyword">var</span> deferred=Q.defer();
+    fs.readFile(file,encoding,deferred.makeNodeResolver())
+    <span class="hljs-keyword">return</span> deferres.promise
+}
+readFile(<span class="hljs-string">&apos;foo.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">data</span>)</span>{
+    <span class="hljs-comment">//success</span>
+},<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>)</span>{
+    <span class="hljs-comment">//err</span>
+})
+</code></pre>
+<p>&#x7EFC;&#x4E0A;&#xFF0C;promise&#x6A21;&#x5F0F;&#x6BD4;&#x539F;&#x59CB;&#x6A21;&#x5F0F;&#x7684;&#x4E8B;&#x4EF6;&#x76D1;&#x542C;&#x548C;&#x89E6;&#x53D1;&#x66F4;&#x5177;&#x4F18;&#x7F8E;&#xFF0C;&#x4F46;&#x7F3A;&#x9677;&#x662F;&#x9700;&#x8981;&#x4E3A;&#x4E0D;&#x540C;&#x7684;&#x573A;&#x666F;&#x5C01;&#x88C5;&#x4E0D;&#x540C;&#x7684;api&#x3002;</p>
+<p><em>&#x6D41;&#x7A0B;&#x63A7;&#x5236;&#x5E93;</em></p>
+<p>&#x4E0A;&#x9762;&#x7684;&#x4E24;&#x79CD;&#x90FD;&#x662F;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x5F0F;&#x6216;&#x8005;&#x5199;&#x5165;&#x89C4;&#x5219;&#x91CC;&#x7684;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x5C06;&#x4ECB;&#x7ECD;&#x4E00;&#x4E9B;&#x975E;&#x6A21;&#x5F0F;&#x5316;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
+<p>==&#x5C3E;&#x89E6;&#x53D1;==</p>
+<p>&#x6700;&#x5E38;&#x89C1;&#x7684;&#x5730;&#x65B9;&#x5C31;&#x662F;&#x4E2D;&#x95F4;&#x4EF6;&#x3002;&#x5728;&#x521B;&#x5EFA;createServer&#x7684;&#x65F6;&#x5019;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7A7A;&#x6808;&#xFF0C;&#x6BCF;&#x6B21;&#x4F7F;&#x7528;use&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#x5C06;&#x4E2D;&#x95F4;&#x4EF6;&#x653E;&#x8FDB;&#x961F;&#x5217;&#x3002;</p>
+<p>==async==</p>
+<p>async&#x6A21;&#x5757;&#x4ECB;&#x7ECD;&#x4E86;20&#x591A;&#x79CD;&#x65B9;&#x6CD5;&#x5904;&#x7406;&#x5F02;&#x6B65;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4ECB;&#x7ECD;&#x5178;&#x578B;&#x7684;&#x51E0;&#x79CD;&#x3002;</p>
+<p>async.series&#x65B9;&#x6CD5;&#xFF0C;&#x5F02;&#x6B65;&#x7684;&#x4E32;&#x884C;&#x6267;&#x884C;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">async</span>.series([
+    <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">callback</span>)</span>{
+        fs.readFile(<span class="hljs-string">&apos;a1.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,callback)
+    },
+    <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">callback</span>)</span>{
+        fs.readFile(<span class="hljs-string">&apos;a2.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,callback)
+    }
+],<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,result</span>)</span>{
+    <span class="hljs-comment">//result&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x7ED3;&#x679C;&#x4E3A;&#x4E0A;&#x9762;&#x6BCF;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x540E;&#x7684;&#x7ED3;&#x679C;</span>
+})
+
+
+
+<span class="hljs-comment">//&#x4EE5;&#x4E0A;&#x7B49;&#x540C;&#x4E8E;&#x5982;&#x4E0B;</span>
+fs.readFile(<span class="hljs-string">&apos;a1.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,content</span>)</span>{
+    <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err)
+    fs.readFile(<span class="hljs-string">&apos;a2.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{
+        <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err)
+        callback(<span class="hljs-literal">null</span>,[content,data])
+    })
+})
+</code></pre>
+<p>result&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x7ED3;&#x679C;&#x4E3A;&#x4E0A;&#x9762;&#x6BCF;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x540E;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x8FD9;&#x91CC;&#x9762;&#x4F20;&#x5165;&#x7684;callback&#xFF08;&#xFF09;&#x5E76;&#x975E;&#x7531;&#x4F7F;&#x7528;&#x8005;&#x6307;&#x5B9A;&#x3002;</p>
+<p>async.parallel&#x5F02;&#x6B65;&#x7684;&#x5E76;&#x884C;&#x6267;&#x884C;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">async</span>.parallel([
+    <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">callback</span>)</span>{
+        fs.readFile(<span class="hljs-string">&apos;a1.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,callback)
+    },
+    <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">callback</span>)</span>{
+        fs.readFile(<span class="hljs-string">&apos;a1.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,callback)
+    }
+],<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,result</span>)</span>{
+    <span class="hljs-comment">//result&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x7ED3;&#x679C;&#x4E3A;&#x4E0A;&#x9762;&#x6BCF;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x540E;&#x7684;&#x7ED3;&#x679C;</span>
+})
+
+
+<span class="hljs-comment">//&#x4EE5;&#x4E0A;&#x7B49;&#x540C;&#x4E8E;&#x5982;&#x4E0B;</span>
+fs.readFile(<span class="hljs-string">&apos;a1.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,content</span>)</span>{
+    <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err)
+    done(<span class="hljs-number">1</span>,content)
+})
+fs.readFile(<span class="hljs-string">&apos;a2.txt&apos;</span>,<span class="hljs-string">&apos;utf8&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err,data</span>)</span>{
+    <span class="hljs-keyword">if</span>(err) <span class="hljs-keyword">return</span> callback(err)
+    done(<span class="hljs-number">2</span>,data)
+})
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 简介">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="nodejs笔记总结.html" class="navigation navigation-next " aria-label="Next page: nodejs笔记总结">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"js异步编程","level":"2.1","depth":1,"next":{"title":"nodejs笔记总结","level":"2.2","depth":1,"path":"js/nodejs笔记总结.md","ref":"js/nodejs笔记总结.md","articles":[]},"previous":{"title":"简介","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"js/js异步编程.md","mtime":"2020-03-24T05:56:54.265Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-24T05:57:39.193Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
